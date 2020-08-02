@@ -9,7 +9,7 @@ public class IgnoreTest {
         System.out.println("ignore1 执行！");
     }
 
-    @Test(enabled = false)
+    @org.testng.annotations.AfterTest(enabled = false)
     public void ignore2(){
         System.out.println("ignore2 执行！");
     }
