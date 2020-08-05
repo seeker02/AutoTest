@@ -20,6 +20,11 @@
             <version>6.10</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20200518</version>
+        </dependency>
     </dependencies>
 
 
